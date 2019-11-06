@@ -1,22 +1,82 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
+.number-buttons {
+  margin-top: 25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: #123c79;
+  box-shadow: 1px 1px #322c2d;
+  margin-left: 3%;
+
+  font-size: 3rem;
+}
+.numberdiv {
+  /* border: 2px solid black; */
+  width: 440px;
+  margin-top: -490px;
+}
+.specialdiv {
+  /* border: 2px solid black; */
+  width: 400px;
+}
+.special-buttons {
+  margin-top: 25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: #2160af;
+  box-shadow: 1px 1px #322c2d;
+  margin-left: 3%;
+
+  font-size: 3rem;
+}
+.operatordiv {
+  /* border: 2px solid black; */
+  width: 90%;
+  margin-top: -120px;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.operator-buttons {
+  margin-top: 22px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: #3eb5e5;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3rem;
+}
