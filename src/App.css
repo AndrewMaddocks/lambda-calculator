@@ -5,6 +5,9 @@
   border-radius: 15px;
   border: 2px solid grey;
   padding-bottom: 25px;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .display {
   margin-top: 25px;
@@ -34,8 +37,8 @@
 }
 .numberdiv {
   /* border: 2px solid black; */
-  width: 450px;
-  margin-top: -520px;
+  width: 440px;
+  margin-top: -490px;
 }
 .specialdiv {
   /* border: 2px solid black; */
@@ -57,13 +60,14 @@
   /* border: 2px solid black; */
   width: 90%;
   margin-top: -120px;
+  margin-left: -20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
 }
 .operator-buttons {
-  margin-top: 25px;
+  margin-top: 22px;
   height: 100px;
   width: 100px;
   border-radius: 50px;

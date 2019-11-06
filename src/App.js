@@ -20,13 +20,17 @@ function App() {
   const addNumber = number => {
     setDisplayValue(displayValue => displayValue + number);
   };
+  const clearNumber = () => {
+    setDisplayValue("");
+  };
+
   return (
     <div className="container">
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display number={displayValue} />
-        <Specials />
+        <Specials clearNumber={clearNumber} />
         <Operators />
         <Numbers addNumber={addNumber} />
       </div>

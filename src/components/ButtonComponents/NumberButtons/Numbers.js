@@ -15,15 +15,9 @@ const Numbers = props => {
   const [numberCount] = useState(numbers);
   return (
     <div className="numberdiv">
-      {numberCount.map(number => {
-        return (
-          <NumberButton
-            key={number}
-            text={number}
-            addNumber={props.addNumber}
-          />
-        );
-      })}
+      {numberCount.map(number => (
+        <NumberButton key={number} text={number} addNumber={props.addNumber} />
+      ))}
     </div>
   );
 };
